@@ -1,0 +1,1 @@
+print(sum([int(num) for num in input("Введите трёхзначное число: ")]))
