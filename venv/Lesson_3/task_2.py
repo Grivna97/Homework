@@ -1,5 +1,5 @@
 float_num = (float(input("Введите число с двумя цифрами после запятой: ")))
 float_num_2 = str(float_num)
 print(float_num_2.split(",")[0])
-print("Первая цифра после десятичной точки - ",float_num_2[2])
-print("Дробная часть числа - ",float_num_2[2]+ float_num_2[3])
+print("Первая цифра после десятичной точки - ",float_num_2[-2:-1])
+print("Дробная часть числа - ",float_num_2[-2:])
